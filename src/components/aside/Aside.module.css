@@ -1,0 +1,14 @@
+.header {
+  grid-area: aside;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: #fff;
+  box-shadow: 0 0.1rem 0.3rem #0002;
+}
+
+.active {
+  display: flex;
+  text-transform: capitalize;
+}

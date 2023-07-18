@@ -1,0 +1,42 @@
+.header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: #fff;
+  box-shadow: 0 0.1rem 0.3rem #0002;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.logo {
+}
+
+
+input {
+  width: 24rem;
+  line-height: 25px;
+  border-radius: 20px;
+}
+
+.nav {
+  display: flex;
+  align-items: left;
+  gap: 2rem;
+}
+.active {
+  color: grey;
+  text-decoration: none;
+  align-items: flex-start;
+}
+
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
