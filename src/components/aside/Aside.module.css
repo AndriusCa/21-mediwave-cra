@@ -1,14 +1,24 @@
 .header {
   grid-area: aside;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 1rem 3rem;
   background-color: #fff;
   box-shadow: 0 0.1rem 0.3rem #0002;
 }
 
+.asideicon {
+  padding: 1rem 0  ;
+  display: flex;
+  flex-direction: row;
+}
+
 .active {
   display: flex;
+  color: #aaa;
+  align-items: center;
+  padding-left: 1rem;
+  font-size: small;
   text-transform: capitalize;
+  text-decoration: none;
 }
+

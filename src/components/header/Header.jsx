@@ -18,7 +18,7 @@ export function Header() {
       </nav>
       <div className={style.right}>
         <form className={style.search}>
-          <input type="search" />
+          <input placeholder="search..." type="search" />
         </form>
         <PiBellThin size="1.5rem" color="#aaa" />
         <LiaEnvelopeOpenTextSolid size="1.5rem" color="#aaa" />

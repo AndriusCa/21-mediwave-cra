@@ -1,6 +1,7 @@
 .app {
   display: grid;
-  grid-template-columns: 1fr 20rem;
+  width: 100%;
+  grid-template-columns: 1fr 86%;
   grid-template-areas:
     "header header"
     "aside main";
