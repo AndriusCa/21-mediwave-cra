@@ -1,8 +1,9 @@
 .app {
   display: grid;
   width: 100%;
-  grid-template-columns: 1fr 86%;
+  grid-template-columns: 186fr 86%;
   grid-template-areas:
     "header header"
+    "aside main"
     "aside main";
 }

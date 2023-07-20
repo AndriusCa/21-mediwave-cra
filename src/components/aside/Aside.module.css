@@ -6,6 +6,11 @@
   box-shadow: 0 0.1rem 0.3rem #0002;
 }
 
+.color {
+ background-color: rgb(210, 16, 16);
+ font-size: x-large;
+}
+
 .asideicon {
   padding: 1rem 0  ;
   display: flex;

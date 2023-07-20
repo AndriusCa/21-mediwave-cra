@@ -1,10 +1,10 @@
 import style from "./Aside.module.css";
-import { BsCalendarPlus, BsInfoCircle, BsPeopleFill } from "react-icons/bs"
+import { BsCalendarPlus, BsInfoCircle, BsPeopleFill } from "react-icons/bs";
 import { LiaCalendarSolid } from "react-icons/lia";
 import { CiSettings } from "react-icons/ci";
-import { FaRegHospital } from "react-icons/fa"
-import { IoMdPerson } from "react-icons/io"
-import { GrDashboard } from "react-icons/gr"
+import { FaRegHospital } from "react-icons/fa";
+import { IoMdPerson } from "react-icons/io";
+import { GrDashboard } from "react-icons/gr";
 
 export function Aside() {
   return (
