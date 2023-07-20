@@ -1,6 +1,6 @@
 import './App.css';
-import { SlCheck, SlClose } from "react-icons/sl"
-import { FaRegLightbulb } from "react-icons/fa"
+import { SlCheck, SlClose } from "react-icons/sl";
+import { FaRegLightbulb } from "react-icons/fa";
 import { Aside } from './components/aside/Aside';
 import { Header } from "./components/header/Header";
 import { Main } from "./components/main/Main";

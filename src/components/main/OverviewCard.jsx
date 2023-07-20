@@ -1,7 +1,7 @@
-import { BsThreeDots, BsFlagFill } from "react-icons/bs"
-import { BiSolidMessage } from "react-icons/bi"
-import { RiAttachment2 } from "react-icons/ri"
-import style from "./Main.module.css"
+import { BsThreeDots, BsFlagFill } from "react-icons/bs";
+import { BiSolidMessage } from "react-icons/bi";
+import { RiAttachment2 } from "react-icons/ri";
+import style from "./Main.module.css";
 
 export function TaskCard({ data: { tag, task, dueDate } }) {
   const date = "Nov 24" // <- dueDate new Date(dueDate)
