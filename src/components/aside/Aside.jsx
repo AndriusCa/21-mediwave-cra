@@ -6,62 +6,76 @@ import { FaRegHospital } from "react-icons/fa";
 import { IoMdPerson } from "react-icons/io";
 import { GrDashboard } from "react-icons/gr";
 
+
+const firstNavData = [
+  {
+    icon: <GrDashboard size="1rem" color="#aaa" />,
+    label: "dashboard",
+    link: "/",
+  },
+  {
+    icon: <BsCalendarPlus size="1rem" color="#aaa" />,
+    label: "appointments",
+    link: "/",
+  },
+  {
+    icon: <LiaCalendarSolid size="1rem" color="#aaa" />,
+    label: "calendar",
+    link: "/",
+  },
+  {
+    icon: <BsPeopleFill size="1rem" color="#aaa" />,
+    label: "patients",
+    link: "/",
+  },
+  {
+    icon: <IoMdPerson size="1rem" color="#aaa" />,
+    label: "doctors",
+    link: "/",
+  },
+  {
+    icon: <FaRegHospital size="1rem" color="#aaa" />,
+    label: "clinics",
+    link: "/",
+  },
+];
+
+const secondNavData = [
+  {
+    icon: <CiSettings size="1rem" color="#aaa" />,
+    label: "settings",
+    link: "/",
+  },
+  {
+    icon: <BsInfoCircle size="1rem" color="#aaa" />,
+    label: "help",
+    link: "/",
+  },
+]
+
 export function Aside() {
   return (
     <aside className={style.header}>
       <nav>
-        <div className={style.asideicon}>
-          <GrDashboard size="1rem" color="#aaa" />
-          <a className={style.active} href="/">
-            dashboard
-          </a>
-        </div>
-        <div className={style.asideicon}>
-          <BsCalendarPlus size="1rem" color="#aaa" />
-          <a className={style.active} href="/">
-            {" "}
-            appointments
-          </a>
-        </div>
-        <div className={style.asideicon}>
-          <LiaCalendarSolid size="1rem" color="#aaa" />
-          <a className={style.active} href="/">
-            calendar
-          </a>
-        </div>
-        <div className={style.asideicon}>
-          <BsPeopleFill size="1rem" color="#aaa" />
-          <a className={style.active} href="/">
-            patients
-          </a>
-        </div>
-        <div className={style.asideicon}>
-          <IoMdPerson size="1rem" color="#aaa" />
-          <a className={style.active} href="/">
-            doctors
-          </a>
-        </div>
-        <div className={style.asideicon}>
-          <FaRegHospital size="1rem" color="#aaa" />
-          <a className={style.active} href="/">
-            clinics
-          </a>
-        </div>
+        {firstNavData.map((item) => (
+          <div key={item.label} className={style.asideicon}>
+            {item.icon}
+            <a className={style.active} href={item.link}>
+              {item.label}
+            </a>
+          </div>
+        ))}
       </nav>
       <div className={style.asideicon}>
         <nav>
-          <div className={style.asideicon}>
-            <CiSettings size="1rem" color="#aaa" />
-            <a className={style.active} href="/">
-              settings
-            </a>
-          </div>
-          <div className={style.asideicon}>
-            <BsInfoCircle size="1rem" color="#aaa" />
-            <a className={style.active} href="/">
-              help
-            </a>
-          </div>
+          {secondNavData.map((item) => (
+            <div key={item.label} className={style.asideicon}>
+              {item.icon}
+              <a className={style.active} href={item.link}>
+                {item.label}
+              </a>
+            </div>
+          ))}
         </nav>
       </div>
     </aside>

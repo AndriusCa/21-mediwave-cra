@@ -1,0 +1,39 @@
+.wholeTable {
+  grid-column: span 4;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.tableTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tableTopButton {
+  display: flex;
+  background-color: white;
+  border: none;
+  gap: 10px;
+}
+
+.tableHeader {
+  padding: 1rem 0 1rem 0;
+}
+
+.table tr {
+  border-collapse: seperate ;
+  border-spacing: 5rem;
+}
+
+.tableWithGap {
+  border-collapse: seperate ;
+  border-spacing: 1rem;
+}
+
+.tableWithGap td {
+  border-bottom: 1px solid grey;
+}

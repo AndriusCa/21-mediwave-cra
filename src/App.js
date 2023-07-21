@@ -1,4 +1,5 @@
 import './App.css';
+import React from "react";
 import { SlCheck, SlClose } from "react-icons/sl";
 import { FaRegLightbulb } from "react-icons/fa";
 import { Aside } from './components/aside/Aside';
@@ -45,10 +46,8 @@ function App() {
       situation: <FaRegLightbulb />,
       actions: (
         <g>
-          <g>
-            <SlCheck />
-            <SlClose />
-          </g>
+          <SlCheck />
+          <SlClose />
         </g>
       ),
     },

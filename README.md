@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Project Design: https://dribbble.com/shots/5771617-Freebie-Dashboard-Design/attachments/11044656?mode=media
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

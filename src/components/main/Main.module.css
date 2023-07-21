@@ -11,9 +11,6 @@
   justify-content: space-between;
   align-items: center;
 }
-.appoint {
-  background-color: #3A7DDD;
-}
 
 .team {
   border: 20px;
@@ -30,9 +27,6 @@
   gap: 1rem;
 }
 
-.columnHeader {
-}
-
 .cardList {
   display: flex;
   flex-direction: column;
@@ -45,6 +39,4 @@
   border-radius: 1rem;
 }
 
-.addTask {
-}
 
